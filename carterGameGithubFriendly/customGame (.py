@@ -53,7 +53,7 @@ def message_display(text):
 
 def score_display(count):
     font = pygame.font.SysFont(None, 30)
-    text = font.render("WARRENS EMANCIPATED: " + str(count), False, green)
+    text = font.render("ENEMIES KILLED: " + str(count), False, green)
     gameDisplay.blit(text, (2, 2))
 
 
